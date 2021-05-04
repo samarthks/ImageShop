@@ -5,8 +5,13 @@
  import PaymentConfirmation from "./pages/PaymentConfirmation";
  import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
+ import { QueryClientProvider, QueryClient } from 'react-query'
+
+ const queryClient = new QueryClient();
+
  function App() {
    return (
+<QueryClientProvider client={queryClient}>
      <BrowserRouter>
        <Switch>
          <Route exact path="/" component={Home} />
@@ -14,6 +19,7 @@
          <Route path="/:productId" component={Products} />
        </Switch>
      </BrowserRouter>
+     </QueryClientProvider>
    )
  }
 
