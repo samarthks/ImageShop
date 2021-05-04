@@ -3,6 +3,8 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import { useQuery } from "react-query";
 import FormatPrice from "../util/FormatPrice";
+import AddCart from "../components/AddCart";
+ import RemoveCart from "../components/RemoveCart";
 
 export default function Products() {
   const { productId } = useParams();
@@ -61,6 +63,8 @@ export default function Products() {
               <span className="title-font font-medium text-2xl text-white">
                 {price}
               </span>
+              <AddCart product={product}  />
+               <RemoveCart  product={product} />
             </div>
           </div>
         </div>
