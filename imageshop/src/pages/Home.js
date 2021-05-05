@@ -1,9 +1,9 @@
-import React from "react";
+import React, { Component } from "react";
 import ProductList from "../components/ProductList";
-
 import Navbar from "../components/NavBar";
-export default function Home() {
 
+export default class Home extends Component {
+render(){
   return (
     <section className="text-gray-400 bg-gray-900 body-font">
         <Navbar />
@@ -20,4 +20,5 @@ export default function Home() {
       </div>
     </section>
   );
+}
 }

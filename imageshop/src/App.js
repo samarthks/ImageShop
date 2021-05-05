@@ -7,11 +7,10 @@ import { loadStripe } from "@stripe/stripe-js";
 import { CartProvider } from "use-shopping-cart";
 import { QueryClientProvider, QueryClient } from "react-query";
 import { Toaster } from 'react-hot-toast';
-import Navbar from "./components/NavBar";
 require('dotenv').config();
 
 const queryClient = new QueryClient();
-const stripePromise = loadStripe("");
+const stripePromise = loadStripe("your-api-key");
 class App extends Component {
   render(){
   return (

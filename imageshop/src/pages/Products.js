@@ -7,7 +7,6 @@ import AddCart from "../components/AddCart";
 import RemoveCart from "../components/RemoveCart";
 import { Link } from "react-router-dom";
 import Navbar from "../components/NavBar";
-
 export default function Products() {
   const { productId } = useParams();
 
@@ -66,30 +65,26 @@ export default function Products() {
               <span className="title-font font-medium text-2xl text-white">
                 {price}
               </span>
-             
-              <AddCart product={product}  />
-               <RemoveCart  product={product} />
-               <br>
-               </br>
-            
 
+              <AddCart product={product} />
+              <RemoveCart product={product} />
+              <br></br>
             </div>
             <div>
-                 <Link to="/" className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-           <span className="flex items-center justify-center ml-3 text-xl">
-             <span className="inline-block py-1 px-2 text-white text-2xl font-medium tracking-wider">
-              Back to Home
-             </span>
-           </span>
-        
-         </Link>
-              </div>
+              <Link
+                to="/"
+                className="flex title-font font-medium items-center text-white mb-4 md:mb-0"
+              >
+                <span className="flex items-center justify-center ml-3 text-xl">
+                  <span className="inline-block py-1 px-2 text-white text-2xl font-medium tracking-wider">
+                    Back to Home
+                  </span>
+                </span>
+              </Link>
+            </div>
           </div>
-          
         </div>
       </div>
-       
     </section>
-    
   );
 }

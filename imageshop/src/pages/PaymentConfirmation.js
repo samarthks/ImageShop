@@ -2,8 +2,8 @@ import React from "react";
 import axios from "axios";
 import { useQuery } from "react-query";
 import { useLocation } from "react-router-dom";
-import { Link } from "react-router-dom";
-import { formatCurrencyString } from "use-shopping-cart";
+
+import { formatCurrencyString} from "use-shopping-cart";
 
 function useQueryString() {
   return new URLSearchParams(useLocation().search);
@@ -75,18 +75,9 @@ export default function PaymentConfirmation() {
           </h2>
         </div>
       </div>
-      <div>
-        <Link
-          to="/"
-          className="flex title-font font-medium items-center text-white mb-4 md:mb-0"
-        >
-          <span className="flex items-center justify-center ml-3 text-xl">
-            <span className="inline-block py-1 px-2 text-white text-2xl font-medium tracking-wider">
-              Back to Home
-            </span>
-          </span>
-        </Link>
-      </div>
+     
+      
     </section>
+    
   );
 }
