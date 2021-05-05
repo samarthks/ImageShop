@@ -8,6 +8,8 @@ import { CartProvider } from "use-shopping-cart";
 import { QueryClientProvider, QueryClient } from "react-query";
 import { Toaster } from 'react-hot-toast';
 import Navbar from "./components/NavBar";
+require('dotenv').config();
+
 const queryClient = new QueryClient();
 const stripePromise = loadStripe("");
 class App extends Component {
@@ -20,7 +22,7 @@ class App extends Component {
         currency="CAD"
       >
         <BrowserRouter>
-        <Navbar />
+       
         <Toaster position="top-center" />
           <Switch>
             <Route exact path="/" component={Home} />

@@ -6,6 +6,7 @@ import FormatPrice from "../util/FormatPrice";
 import AddCart from "../components/AddCart";
 import RemoveCart from "../components/RemoveCart";
 import { Link } from "react-router-dom";
+import Navbar from "../components/NavBar";
 
 export default function Products() {
   const { productId } = useParams();
@@ -44,6 +45,7 @@ export default function Products() {
   const price = FormatPrice(product);
   return (
     <section className="text-gray-400 bg-gray-900 body-font overflow-hidden">
+      <Navbar />
       <div className="container px-5 py-24 mx-auto">
         <div className="lg:w-4/5 mx-auto flex flex-wrap">
           <img
