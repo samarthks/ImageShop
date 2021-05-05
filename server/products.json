@@ -1,63 +1,62 @@
 [
-    {
-      "id": "img1",
-      "category": "Nature",
-      "name": "Nature Image 1",
-      "unique_num": "num_1234",
-      "price": 400,
-      "image": "https://www.gstatic.com/webp/gallery/1.jpg",
-      "description": "Nature is beautiful",
-      "currency": "CAD"
-    },
-    {
-      "id": "img2",
-      "category": "Nature",
-      "name": "Nature Image 2",
-      "unique_num": "num_1526",
-      "price": 5000,
-      "image": "https://www.gstatic.com/webp/gallery/2.jpg",
-      "description": "Nature is beautiful",
-      "currency": "CAD"
-    },
-    {
-      "id": "img3",
-      "category": "Park",
-      "name": "Nature Image 3",
-      "unique_num": "num_1289",
-      "price": 7000,
-      "image": "https://www.gstatic.com/webp/gallery/3.jpg",
-      "description": "Nature is beautiful",
-      "currency": "CAD"
-    },
-    {
-      "id": "img4",
-      "category": "Nature",
-      "name": "Nature Image 1",
-      "unique_num": "num_7685",
-      "price": 300,
-      "image": "https://www.gstatic.com/webp/gallery/4.jpg",
-      "description": "Nature Image 5",
-      "currency": "CAD"
-    },
-    {
-      "id": "img5",
-      "category": "Person",
-      "name": "Nature Image 5",
-      "unique_num": "num_4982",
-      "price": 42900,
-      "image": "https://www.gstatic.com/webp/gallery/5.jpg",
-      "description": "Nature is beautiful",
-      "currency": "CAD"
-    },
-    {
-      "id": "img6",
-      "category": "Person",
-      "name": "Nature Image 6",
-      "unique_num": "num_8324",
-      "price": 5500,
-      "image": "https://www.gstatic.com/webp/gallery/4.jpg",
-      "description": "Nature is beautiful",
-      "currency": "CAD"
-    }
-  ]
-  
+  {
+    "id": "img1",
+    "category": "Nature",
+    "name": "Nature Image 1",
+    "unique_num": "num_1234",
+    "price": 400,
+    "image": "https://www.gstatic.com/webp/gallery/1.jpg",
+    "description": "Nature is beautiful",
+    "currency": "CAD"
+  },
+  {
+    "id": "img2",
+    "category": "Nature",
+    "name": "Nature Image 2",
+    "unique_num": "num_1526",
+    "price": 5000,
+    "image": "https://www.gstatic.com/webp/gallery/2.jpg",
+    "description": "Nature is beautiful",
+    "currency": "CAD"
+  },
+  {
+    "id": "img3",
+    "category": "Park",
+    "name": "Nature Image 3",
+    "unique_num": "num_1289",
+    "price": 7000,
+    "image": "https://www.gstatic.com/webp/gallery/3.jpg",
+    "description": "Nature is beautiful",
+    "currency": "CAD"
+  },
+  {
+    "id": "img4",
+    "category": "Nature",
+    "name": "Nature Image 1",
+    "unique_num": "num_7685",
+    "price": 300,
+    "image": "https://www.gstatic.com/webp/gallery/4.jpg",
+    "description": "Nature Image 5",
+    "currency": "CAD"
+  },
+  {
+    "id": "img5",
+    "category": "Person",
+    "name": "Nature Image 5",
+    "unique_num": "num_4982",
+    "price": 42900,
+    "image": "https://www.gstatic.com/webp/gallery/5.jpg",
+    "description": "Nature is beautiful",
+    "currency": "CAD"
+  },
+  {
+    "id": "img6",
+    "category": "Person",
+    "name": "Nature Image 6",
+    "unique_num": "num_8324",
+    "price": 5500,
+    "image": "https://www.gstatic.com/webp/gallery/4.jpg",
+    "description": "Nature is beautiful",
+    "currency": "CAD"
+  }
+]

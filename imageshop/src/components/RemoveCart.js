@@ -5,19 +5,17 @@ import { useShoppingCart } from "use-shopping-cart";
 export default function RemoveCart({ product }) {
   const { removeItem, cartCount } = useShoppingCart();
 
-  function RemoveItem() {
-    removeItem(product.unique_num);
-    toast.success(`${product.name} is removed from your cart!`)
-
+  function RemovesItems() {
+    removeItem(product.sku);
+    toast.success(`${product.name} is removed from your cart!`);
   }
-
   return (
-    <button 
+    <button
       className="flex ml-2 text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded"
-      onClick={RemoveItem}
+      onClick={RemovesItems}
       disabled={!cartCount}
     >
-      Remove from Cart
+      Remove
     </button>
   );
 }

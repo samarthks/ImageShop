@@ -7,11 +7,14 @@ export default function AddCart({ product }) {
 
   function AddItem() {
     addItem(product);
-    toast.success(`${product.name} is added to your cart!`)
+    toast.success(`${product.name} is added to your cart!`);
   }
 
   return (
-    <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" onClick={AddItem}>
+    <button
+      className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded"
+      onClick={AddItem}
+    >
       Add To Cart
     </button>
   );
